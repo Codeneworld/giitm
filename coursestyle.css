@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.center {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.subheading {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.enroll-button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.enroll-button:hover {
+    background-color: #0056b3;
+}

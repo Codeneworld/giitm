@@ -1,0 +1,152 @@
+#bar{
+    height: 45px;
+    background-color: #07294D;
+    text-align: center;
+}
+.tab{
+    text-decoration: none;
+    color: white;
+}
+#logo{
+      text-align: left;
+}
+#slider{
+    background-color: #f1c40f;
+    color: #4a235a;
+}
+#intro{
+        text-align:left
+
+}
+#div{
+    font-family: Verdana ;
+    align-items: center;
+    background-color: aquamarine;
+    border-radius: 10px;
+    color: #520194;
+    height: 44px;
+    width: 400px;
+    border: #000a14;
+    text-decoration:  red wavy underline;
+}
+
+#para{
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    font-family: 'Poppins', sans-serif;   
+}
+#courses{
+    font-family: Verdana ;
+    text-align: center;
+    align-items: center;
+    background-color: aquamarine;
+    border-radius: 10px;
+    color: #520194;
+    height: 44px;
+    width: 400px;
+    border: #000a14;
+    text-decoration:  red wavy underline;
+}
+
+.container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 200px;
+}
+.box {
+    background-color: #ffffff;
+    border: 5px solid #3498db; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    padding: 20px;
+    margin: 20px; 
+    width: 300px; 
+    height: 200;
+    text-align: center;
+}
+
+.box h2 {
+    color: #2980b9; 
+    margin-bottom: 10px; 
+}
+
+.box p {
+    color: #7f8c8d; 
+    line-height: 1.5; 
+}
+.wrapper {
+           max-height: 220px;
+           max-width: 100%;
+           border: 3px solid darkblue;
+           display: flex;
+           overflow-x: auto;
+
+}
+.wrapper::-webkit-scrollbar{
+          width: 0;
+}
+.wrapper.item{
+               min-width: 100%;
+               height: 600 px;
+               line-height: 300px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 15px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+}
